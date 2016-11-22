@@ -1,0 +1,41 @@
+.logements{
+	font-size:1.3em;
+}
+.images{
+	display: flex;
+    justify-content: space-around;
+}
+.img1{
+	background-image: url('https://cdn.pixabay.com/photo/2016/11/01/15/46/santorini-1788599__340.jpg');
+	background-size: 15em;
+	height: 20em; 
+	background-repeat: no-repeat;
+	color:$color;
+	font-size: 1.5em;
+}
+.img2{
+	background-image: url('https://cdn.pixabay.com/photo/2016/11/08/05/18/adventure-1807521__340.jpg');
+	background-size: 15em;
+	height: 20em; 
+	background-repeat: no-repeat;
+	color:$color;
+	font-size: 1.5em;
+
+}
+.img3{
+	background-image: url('https://cdn.pixabay.com/photo/2016/11/01/13/29/cat-1788262__340.jpg');
+	background-size: 15em;
+	height: 20em; 
+	background-repeat: no-repeat;
+	color:$color;
+	font-size: 1.5em;
+
+}
+.img4{
+	background-image: url('https://cdn.pixabay.com/photo/2016/10/18/23/55/calgary-1751846__340.jpg');
+	background-size: 15em;
+	height: 20em; 
+	background-repeat: no-repeat;
+	color:$color;
+	font-size: 1.5em;
+}

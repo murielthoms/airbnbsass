@@ -1,0 +1,103 @@
+body{
+	font-family:$fontFa;
+}
+
+.menu{
+	padding:2em;
+	text-align: right;
+
+	a {
+		padding:0.4em;
+		text-decoration:none;
+		color:$color;
+		font-size:1.3em;
+	}
+}
+.container{
+	background-image: url('https://cdn.pixabay.com/photo/2016/10/16/18/11/shaft-1745933__340.jpg');
+	background-size: 100em;
+	height: 30em; 
+	background-repeat: no-repeat;
+	
+
+}
+.titre{	
+	color:$color;
+	
+	h1{
+
+		font-size: 3em;
+		padding-left: 290px;
+
+	}
+	h4{
+		
+		font-size: 1.3em;
+		padding-left:290px;
+	}
+}
+
+button.rond{
+	border-radius:2em;
+	font-size: 1.3em;
+	background: none;
+	text-align:center;
+	padding:0.3em;
+	color:$color;
+
+}
+
+.nouveautes{
+	padding-left:300px;
+	padding-top:50px;
+}
+form{
+	display:flex;
+	padding:2em;
+	font-size:1em;
+}
+.rechercher{ 
+
+	font-size:1.2em;
+	
+}
+.btnrecherche{
+	background-color:#ff5a5f;
+	border-color:#ff5a5f;
+	font-size: 1.3em;
+	color:$color;
+}
+
+.there{
+	font-size:1.3em; 
+}
+
+.ou{
+	font-size: 1.3em;
+	padding:0.5em;
+}
+.when{
+	font-size:1.3em;
+}
+.quand{
+	font-size: 1.3em;
+	padding:0.5em;
+}
+.date{
+	font-size: 1.3em;
+	padding:0.5em;
+}
+.voyage{
+	font-size: 1.3em;
+	
+}
+.nombre{
+	font-size: 1.3em;
+	padding:0.5em;
+}
+
+
+
+	
+
+
