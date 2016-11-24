@@ -1,22 +1,29 @@
-.logements{
+.experiences{
 	font-size:1.3em;
+	padding-left: 20.5vh;
 }
+
+
 .images{
+	width:80%;
+	margin:0 auto;
 	display: flex;
-    justify-content: space-around;
+	justify-content: space-around;
 }
 .img1{
+
 	background-image: url('https://cdn.pixabay.com/photo/2016/11/01/15/46/santorini-1788599__340.jpg');
-	background-size: 15em;
-	height: 20em; 
+	background-size: 19vw;
+	height: 55vh; 
 	background-repeat: no-repeat;
 	color:$color;
 	font-size: 1.5em;
 }
 .img2{
-	background-image: url('https://cdn.pixabay.com/photo/2016/11/08/05/18/adventure-1807521__340.jpg');
-	background-size: 15em;
-	height: 20em; 
+	
+	background-image: url('https://cdn.pixabay.com/photo/2016/10/29/21/06/door-1781593__340.jpg');
+	background-size: 19vw;
+	height: 55vh; 
 	background-repeat: no-repeat;
 	color:$color;
 	font-size: 1.5em;
@@ -24,18 +31,61 @@
 }
 .img3{
 	background-image: url('https://cdn.pixabay.com/photo/2016/11/01/13/29/cat-1788262__340.jpg');
-	background-size: 15em;
-	height: 20em; 
+	background-size: 19vw;
+	height: 55vh; 
 	background-repeat: no-repeat;
 	color:$color;
 	font-size: 1.5em;
 
 }
 .img4{
+	
 	background-image: url('https://cdn.pixabay.com/photo/2016/10/18/23/55/calgary-1751846__340.jpg');
-	background-size: 15em;
-	height: 20em; 
+	background-size: 19vw;
+	height: 55vh; 
 	background-repeat: no-repeat;
 	color:$color;
 	font-size: 1.5em;
+}
+
+.logements{
+	font-size:1.3em;
+	padding-left:21vh;
+
+}
+
+
+.images1{
+	width:80%;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.rating span{
+	font-size:1.2em;
+	color:#008489;
+	
+	}
+
+.img5{
+	
+	background-image: url('https://cdn.pixabay.com/photo/2016/11/12/15/06/bad-1818944__340.jpg');
+	width: 25.5vw;
+	height:33vh; 
+	background-repeat: no-repeat;
+}
+.img6{
+
+	background-image: url('https://cdn.pixabay.com/photo/2016/11/14/03/29/ancient-1822487__340.jpg');
+	width: 25.5vw;
+	height:33vh; 
+	background-repeat: no-repeat;
+}
+.img7{
+	
+	background-image: url('https://cdn.pixabay.com/photo/2016/10/22/17/46/scotland-1761292__340.jpg');
+	width: 25.5vw;
+	height:33vh; 
+	background-repeat: no-repeat;
+
 }
