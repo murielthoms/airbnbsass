@@ -1,5 +1,7 @@
 body {
-  font-family: circular; }
+  font-family: circular;
+  font-size: 18px;
+  margin: 0; }
 
 .menu {
   padding: 2em;
@@ -19,82 +21,91 @@ body {
 .titre {
   color: #fff; }
   .titre h1 {
+    margin: 0;
     font-size: 2.8em;
-    padding-left: 190px; }
+    padding-left: 3em; }
   .titre h4 {
+    padding-top: 1em;
     font-size: 1.3em;
-    padding-left: 190px; }
+    padding-left: 7em; }
 
 button.rond {
   border-radius: 2em;
-  font-size: 1.3em;
+  font-size: 1em;
   background: none;
   text-align: center;
   padding: 0.3em;
   color: #fff; }
 
 .nouveautes {
-  padding-left: 300px;
-  padding-top: 50px; }
+  padding-left: 9em;
+  padding-top: 3em; }
 
 .ou {
+  border-top-left-radius: 0.2em;
+  border-bottom-left-radius: 0.2em;
   font-family: circular;
-  border: 1px grey solid;
+  border: 1px #A9A9A9 solid;
   float: left;
   width: 25vw;
-  height: 10vh;
-  margin-left: 10vh;
-  padding-left: 1.875em;
-  text-align: center;
-  padding-top: 15px; }
+  height: 11vh;
+  padding-left: 1em;
+  padding-top: 0.833em; }
+  .ou #inputDestination {
+    border: none;
+    font-size: 1em; }
 
 .quand {
   font-family: circular;
-  border: 1px grey solid;
+  border: 1px #A9A9A9 solid;
   float: left;
   width: 25vw;
-  height: 10vh;
-  text-align: center;
-  padding-top: 15px; }
+  height: 11vh;
+  margin-left: 0vh;
+  padding-left: 1em;
+  padding-top: 0.833em; }
+  .quand .inputDestination {
+    width: 6.250em;
+    height: 1.875em;
+    background: white;
+    border: none;
+    text-align: left;
+    font-size: 1em;
+    margin-top: -0.2em; }
 
 .Voyageurs {
+  border-top-right-radius: 0.2em;
+  border-bottom-right-radius: 0.2em;
+  border: 1px #A9A9A9 solid;
   font-family: circular;
-  float: left;
-  border: 1px grey solid;
-  width: 25vw;
-  height: 10vh;
-  padding-left: 1.875em;
-  text-align: center;
-  padding-top: 15px; }
-
-#Ou {
-  width: 12.500em;
-  height: 1.875em;
-  margin-bottom: 1.250em;
-  background: white;
-  border: none; }
-
-#inputDestination {
-  margin-left: 1.875em;
-  width: 6.250em;
-  height: 1.875em;
-  margin-bottom: 1.250em;
-  background: white;
-  border: none; }
+  width: 24vw;
+  height: 11vh;
+  margin-left: 0vh;
+  padding-left: 1em;
+  padding-top: 0.833em; }
+  .Voyageurs .voyage {
+    border: none;
+    background: none;
+    font-size: 1em;
+    color: #767676; }
 
 .infos {
   margin-top: 4.375em;
-  display: inline-block;
-  padding-left: 10em; }
+  display: flex;
+  padding-left: 8.4em; }
 
 .btnrecherche {
-  border-radius: 0.625em;
+  border-radius: 0.3em;
   border: none;
   color: white;
   background-color: #ff5a5f;
-  width: 6.250em;
-  height: 1.875em;
-  font-family: circular; }
+  width: 6em;
+  height: 2.5em;
+  font-family: circular;
+  font-size: 1.3em;
+  margin-left: 3em;
+  position: absolute;
+  margin-top: -1.5em; }
 
 .experiences {
   font-size: 1.3em;
@@ -112,7 +123,7 @@ button.rond {
   height: 55vh;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 1.5em; }
+  font-size: 1em; }
 
 .img2 {
   background-image: url("https://cdn.pixabay.com/photo/2016/10/29/21/06/door-1781593__340.jpg");
@@ -120,7 +131,7 @@ button.rond {
   height: 55vh;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 1.5em; }
+  font-size: 1em; }
 
 .img3 {
   background-image: url("https://cdn.pixabay.com/photo/2016/11/01/13/29/cat-1788262__340.jpg");
@@ -128,7 +139,7 @@ button.rond {
   height: 55vh;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 1.5em; }
+  font-size: 1em; }
 
 .img4 {
   background-image: url("https://cdn.pixabay.com/photo/2016/10/18/23/55/calgary-1751846__340.jpg");
@@ -136,7 +147,7 @@ button.rond {
   height: 55vh;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 1.5em; }
+  font-size: 1em; }
 
 .logements {
   font-size: 1.3em;
@@ -228,25 +239,25 @@ button.rond {
 
 .img14 {
   background-image: url("https://cdn.pixabay.com/photo/2016/10/28/16/43/usa-1778564__340.jpg");
-  background-size: 22vw;
+  background-size: 19vw;
   height: 55vh;
   background-repeat: no-repeat; }
 
 .img15 {
   background-image: url("https://cdn.pixabay.com/photo/2016/10/18/21/46/locomotive-1751520__340.jpg");
-  background-size: 22vw;
+  background-size: 19vw;
   height: 55vh;
   background-repeat: no-repeat; }
 
 .img16 {
   background-image: url("https://cdn.pixabay.com/photo/2016/10/29/22/03/door-1781733__340.jpg");
-  background-size: 22vw;
+  background-size: 19vw;
   height: 55vh;
   background-repeat: no-repeat; }
 
 .img17 {
-  background-image: url("https://cdn.pixabay.com/photo/2016/10/18/22/02/mailbox-1751582__340.jpg");
-  background-size: 22vw;
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/09/10/00/architecture-1245987__340.jpg");
+  background-size: 19vw;
   height: 55vh;
   background-repeat: no-repeat; }
 
