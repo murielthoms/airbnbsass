@@ -261,4 +261,40 @@ button.rond {
   height: 55vh;
   background-repeat: no-repeat; }
 
+.footerA {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  height: 10em;
+  width: 80%; }
+
+.lang {
+  margin-top: 2em;
+  width: 8em;
+  height: 2em;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  background: none;
+  color: #008489; }
+
+.val {
+  width: 8em;
+  height: 2em;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  margin-top: 1em;
+  background: none;
+  color: #008489; }
+
+h5 {
+  margin-left: 6em;
+  font-size: 1em; }
+
+a {
+  text-decoration: none;
+  padding: 6em;
+  color: #767676; }
+
 /*# sourceMappingURL=style.css.map */
