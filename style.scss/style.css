@@ -263,13 +263,6 @@ button.rond {
   height: 55vh;
   background-repeat: no-repeat; }
 
-.footerA {
-  margin: 0 auto;
-  display: flex;
-  height: 12em;
-  width: 80%;
-  justify-content: space-around; }
-
 .lang {
   margin-top: 1em;
   width: 8em;
@@ -294,17 +287,14 @@ h5 {
   margin-left: 2em;
   font-size: 1em; }
 
-li {
-  text-decoration: none;
-  list-style-type: none;
-  color: #767676; }
-
 .airbnb {
   width: 25%;
-  margin-left: 4em; }
+  margin-left: 4em;
+  text-decoration: none; }
 
 .decouvrir {
-  width: 25%; }
+  width: 25%;
+  text-decoration: none; }
 
 .hebergement {
   width: 25%; }
@@ -314,20 +304,6 @@ li {
   margin-right: 8em; }
 
 .footerB {
-  width: 80%;
-  display: flex;
-  height: 6em; }
-
-.bas {
-  text-decoration: none;
-  display: flex;
-  padding-bottom: 1,5em; }
-  .bas li {
-    padding: 1.5em; }
-
-.inc {
-  text-decoration: none;
-  margin-left: 8em;
-  padding-top: 3em; }
+  width: 80%; }
 
 /*# sourceMappingURL=style.css.map */
